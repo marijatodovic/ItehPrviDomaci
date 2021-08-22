@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol&family=Rubik:wght@300&family=Urbanist:wght@100&display=swap");
+/*Sass  Template*/
+/*global classes*/
+button, button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.font-kaisei {
+  font-family: "Kaisei Decol", serif;
+}
+
+.font-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.font-urbanist {
+  font-family: "Urbanist", sans-serif;
+}
+
+.font-size-12 {
+  font-size: 12px;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+.color-primary {
+  color: #7d0000;
+}
+
+.color-primary-bg {
+  background: #7d0000;
+}
+
+.color-secondary {
+  color: #ce6c6c;
+}
+
+.color-secondary-bg {
+  background: #ce6c6c;
+}
+
+.color-tertiary {
+  color: #c78a00;
+}
+
+.color-tertiary-bg {
+  background: #c78a00;
+}
+
+#top-sale .owl-carousel .item .product a {
+  overflow: hidden;
+}
+#top-sale .owl-carousel .item .product img {
+  transition: transform 0.5s ease;
+}
+#top-sale .owl-carousel .item .product img:hover {
+  transform: scale(1.1);
+}
+
+/*# sourceMappingURL=style.css.map */
